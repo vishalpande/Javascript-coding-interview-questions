@@ -5,7 +5,7 @@ function greet() {
 }
 
 setTimeout(greet, 3000);
-console.log('This message is shown first');\\
+console.log('This message is shown first');
 
 
 // console.log("first")
