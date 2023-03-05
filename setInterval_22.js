@@ -1,5 +1,4 @@
-
-
+//set interval 
 console.log(" code is starting...")
 function add(){
     console.log("its Stated......")
