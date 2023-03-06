@@ -1,6 +1,6 @@
 // Given an interger n return the sum of all the natural numbers from 1 to n.
 
-// Example :
+// Example:
 // Input:
 // 5
 
