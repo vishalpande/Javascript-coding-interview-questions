@@ -1,4 +1,4 @@
-// Write a JavaScript program that accept three integers and return the maximum among them.
+// Write a JavaScript program that accept three integer and return the maximum among them.
 
 function MaxNumber(a,b,c) {
     if(a >= b && a >= c)
