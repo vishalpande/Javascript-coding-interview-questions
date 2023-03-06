@@ -1,5 +1,5 @@
 function main() {
-    // let n=parseInt(readLine());
+    // let n=parseInt(readLines());
     let arr=[];
     for(let i=0;i<n;i++){
         let name="vishal"
