@@ -15,3 +15,4 @@ function findRemainder(a, b) {
     var a = 5;
     var b =8;
     console.log(findRemainder(a, b));
+    // interfacer intergration principle 
