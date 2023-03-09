@@ -15,7 +15,7 @@ function main() {
     let num1=parseInt(readLine());
     let num2=parseInt(readLine());
 	const n1 = Promise.resolve(num1)
-	const n2 = Promise.resolve(num2)
+	const n2 = Promise.resolve(num2);
 	test([n1, n2])
 
 }
