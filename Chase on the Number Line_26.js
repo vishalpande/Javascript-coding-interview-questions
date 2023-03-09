@@ -6,4 +6,14 @@
 
 // The initial location of the policeman on the number line is X and his speed is 2 units per second. The initial location of the thief on the number line is Y and his speed is 1 unit per second.
 
-// Find the minimum time (in seconds) in which the policeman can catch the thief. Note that, the policeman catches the thief as soon as their locations become equal and the thief will try to evade the policeman for as long as possible.
+// Find the minimum time (in seconds) in which the policeman can catch the thief. Note that, the policeman catches the thief as soon as their locations become equal and the thief will try to evade the policeman for as long as possible.function main() {
+    var X = parseInt(readLine());
+    var Y = parseInt(readLine());
+    console.log(catchThief(X, Y));
+
+function catchThief(X, Y) {
+const relativeSpeed=2-1;
+const distance=Math.abs(X-Y);
+const time=distance/relativeSpeed;
+return time;
+}
