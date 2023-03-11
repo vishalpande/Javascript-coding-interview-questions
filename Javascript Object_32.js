@@ -1,0 +1,1 @@
+// Given a string like an object , convert it into an object having 2 properties fname and lname .Return a string having fname and lname with space seperated using that object.

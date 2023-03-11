@@ -14,3 +14,4 @@ function main() {
     const obj = new Animals(animal, species);
     obj.details();
 }
+
