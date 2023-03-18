@@ -50,8 +50,32 @@
 
 
 
-for (var i = 0; i < 3; i++) {
-  setTimeout(function() {
-        alert(i);
-  }, 1000 + i);
+// for (var i = 0; i < 3; i++) {
+//   setTimeout(function() {
+//         alert(i);
+//   }, 1000 + i);
+// }
+
+
+// let a=5
+// let b=10;
+// let sum=0;
+
+// ( function(){
+// console.log(a+b);
+// })();
+
+// function higherOrder2() {
+//   return function() {
+//     return "Do something";
+//   }
+// }      
+// var x = higherOrder2();
+// console.log(x())   // Returns "Do something"
+// 13. Explain “this” keyword.
+
+function doSomething() {
+  console.log(this);
 }
+   
+console.log(doSomething());
