@@ -74,8 +74,17 @@
 // console.log(x())   // Returns "Do something"
 // 13. Explain “this” keyword.
 
-function doSomething() {
-  console.log(this);
+// 
+
+console.log('this is first')
+
+setTimeout(()=>{
+task('donwload a file')
+
+
+},1000);
+function task(){
+  console.log(task)
 }
-   
-console.log(doSomething());
+
+console.log('second')
